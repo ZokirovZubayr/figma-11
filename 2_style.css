@@ -29,9 +29,9 @@ nav {
 
 .text {
     color: white;
-    /* font-size: 28px; */
+    /* font-size: -18px; */
     text-decoration: none;
-    font-size: 28px;
+    list-style-type: none;
 
 
 }
@@ -87,7 +87,6 @@ body:root{
 
 .cards{
     margin-top: 100px;
-    display: flex;
     height: 1000px;
     gap: 100px;
 }
@@ -96,9 +95,8 @@ body{
     background-color: rgb(3, 3, 50);
 }
 
-.cards1{
-    margin-top: -400px;
-    display: flex;
+.cards{
+    margin-top: 200px;
     height: 1000px;
     gap: 100px;
     width: 100%;
@@ -111,7 +109,7 @@ body{
     margin-right: auto;
 }
 
-.card1 {
+.card1{
     background: #2B3844;
     padding: 20px 20px;
     height: 400px;
